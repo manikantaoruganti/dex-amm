@@ -1,0 +1,13 @@
+node_modules/
+.env
+.env.local
+.DS_Store
+*.log
+coverage/
+cache/
+artifacts/
+typechain-types/
+build/
+dist/
+.vscode/
+.idea/
