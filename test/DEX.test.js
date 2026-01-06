@@ -3,7 +3,6 @@ const { ethers } = require("hardhat");
 
 describe("DEX", () => {
   let dex, tokenA, tokenB, owner, addr1, addr2;
-
   beforeEach(async () => {
     [owner, addr1, addr2] = await ethers.getSigners();
     const MockERC20 = await ethers.getContractFactory("MockERC20");
